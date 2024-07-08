@@ -1,0 +1,54 @@
+.records-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.records-table th,
+.records-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.records-table th {
+    background-color: #1c6196;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+.records-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.records-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.records-table td {
+    padding: 10px;
+    /* text-align: center; */
+}
+
+.action-button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.action-button:hover {
+    background-color: #45a049;
+}
+
+#random{
+    display: flex;
+    justify-content: space-around;
+}
